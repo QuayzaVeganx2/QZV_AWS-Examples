@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-echo "== deploy ec2 instance"
+echo "== deploy secrets manager stuff"
 
-STACK_NAME="aws-ebs-basic"
+STACK_NAME="aws-sm-basic"
 
 # https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/deploy/index.html
 aws cloudformation deploy \
